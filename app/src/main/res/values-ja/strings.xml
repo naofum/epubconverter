@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright ©2011 Ezio Querini
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<resources>
+
+    <!-- epubconverter -->
+    <string name="app_name">ePUB コンバーター</string>
+    <string name="convert">変換</string>
+    <string name="preview">プレビュー</string>
+    <string name="cip">変換処理中</string>
+    <string name="wrongfile">このファイルは ePUB コンバーターで処理できません</string>
+    
+    <!-- Menu -->
+    <string name="prefs">設定</string>
+    <string name="info">情報</string>
+    <string name="license">ライセンス</string>
+    
+    <!-- Preview -->
+    <string name="prev">前のページ</string>
+    <string name="next">次のページ</string>
+    
+    <!-- Prefs -->
+    <string name="images_title">画像を含める</string>
+    <string name="images_summary">PDF から画像を抽出します</string>
+    <string name="repeated_title">画像の繰り返し</string>
+    <string name="repeated_summary">画像の繰り返しごとに追加します</string>
+    <string name="page_title">ファイルごとのページ数</string>
+    <string name="page_summary">ファイルごとの PDF ページ数</string>
+    <string name="error_title">エラーのある ePUB</string>
+    <string name="error_summary">変換時エラー</string>
+    <string name="keep_item">保持</string>
+    <string name="ask_item">問い合わせ</string>
+    <string name="discard_item">破棄</string>
+    <string name="mark_title">マーカーを追加</string>
+    <string name="mark_summary">エラーとページの損失をマークします</string>
+    <string name="notifi_title">通知を非表示</string>
+    <string name="notifi_summary">通知を送信しません</string>
+    <string name="pdftoc_title">PDF から目次</string>
+    <string name="pdftoc_summary">PDF から目次の抽出を試みます</string>
+    <string name="filechooser_group">ファイル選択</string>
+    <string name="all_files_title">すべて表示</string>
+    <string name="all_files_summary">すべてのファイルを表示します</string>
+    <string name="detail_title">詳細を非表示</string>
+    <string name="detail_summary">ファイル名のみ表示します</string>
+    <string name="preview_group">プレビュー</string>
+    <string name="show_images_title">画像を表示</string>
+    <string name="show_images_summary">プレビューで画像を表示します</string>
+    
+    <!-- FileChooser -->
+    <string name="path">パス: %s</string>
+    <string name="root">ルート フォルダー</string>
+    <string name="up">上のフォルダー</string>
+	<string name="folder">フォルダー</string>
+    <string name="recent_title">最近開いたフォルダー</string>
+    <string name="recent_summary">以前開いたフォルダーから選択します</string>
+    <string name="back_title">戻る</string>
+	<string name="back_summary">ファイル選択に戻ります</string>
+		
+    <!-- Convert -->
+    <string name="read_error">"ePUB ファイルを読み込みできません"</string>
+    <string name="heading">"epubconverter - ©2011 Ezio Querini\nAndroid 用の PDF から ePUB への最低限のオフライン変換\n"</string>
+    <string name="library">"AGPL ライセンスの下でリリースされる iText ソフトウェア ライブラリーに基づいて PDF を抽出します\n\n"</string>
+    <string name="deleted">ePUB ファイルを削除しました</string>
+    <string name="kept_old">古い ePUB ファイルを保存しました</string>
+    <string name="pages">ページ数: %d\n</string>
+    <string name="extraction_failure">ページ %d: 抽出に失敗しました</string>
+    <string name="extraction_error">抽出エラー: テキストに互換性がありません</string>
+    <string name="keep">ePUB ファイルを保存しますか?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="stop">停止</string>
+    <string name="lost_pages">損失したページをマークしました %s</string>
+    <string name="errors">エラーをマークしました %s</string>
+    <string name="pagenumber">ページ数%s</string>
+    <string name="load">ロード中: %s</string>
+    <string name="file">\nePUB ファイル: %s</string>
+    <string name="open">ePUBファイルを開く</string>
+    <string name="mimetype">mimetype を追加</string>
+    <string name="container">container.xml を追加</string>
+    <string name="content">content.opf を追加</string>
+    <string name="toc">toc.ncx を追加</string>
+    <string name="frontpage">frontpage.html を追加</string>
+    <string name="frontpagepng">frontpage.png を追加</string>
+    <string name="html">page%d.html を追加</string>
+    <string name="image">%s を追加</string>
+    <string name="close">ファイルを閉じる</string>
+    <string-array name="message">
+        <item>変換が完了しました</item>
+        <item>PDF ファイルが見つかりません</item>
+        <item>PDF ファイルの読み込みに失敗しました</item>
+        <item>ePUB ファイルの書き込みに失敗しました</item>
+        <item>テキストの抽出に失敗しました</item>
+        <item>ユーザーにより抽出を停止しました</item>
+        <item>メモリー不足エラー</item>
+    </string-array>
+
+</resources>
