@@ -162,7 +162,7 @@ public class FileChooser extends ListActivity {
 
 		// Add filenames
 		File[] files = f.listFiles(); 
-		if (files.length > 0) {
+		if (files != null && files.length > 0) {
 			Arrays.sort(files);
 			for(File file : files) {
 				if((!file.isHidden()) && (file.canRead())) {
